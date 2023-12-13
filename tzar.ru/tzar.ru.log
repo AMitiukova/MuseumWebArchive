@@ -1,0 +1,358 @@
+2023-12-12 22:31:12,066 - wpull.database.sqltable - DEBUG - Setting pragmas.
+2023-12-12 22:31:12,089 - wpull.application.tasks.database - DEBUG - Releasing any in-progress items in database.
+2023-12-12 22:31:12,194 - wpull.application.tasks.download - DEBUG - Loaded cookies: []
+2023-12-12 22:31:12,198 - root - DEBUG - Wpull needs the root logger level set to DEBUG.
+2023-12-12 22:31:12,199 - wpull.warc.recorder - DEBUG - WARC file at tzar.ru.warc.gz
+2023-12-12 22:31:12,203 - wpull.warc.recorder - DEBUG - Writing WARC record warcinfo.
+2023-12-12 22:31:12,209 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.app.Application object at 0x0000023E7E8357F0> registered event Event.pipeline_begin
+2023-12-12 22:31:12,210 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.app.Application object at 0x0000023E7E8357F0> registered event Event.pipeline_end
+2023-12-12 22:31:12,210 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.database.wrap.URLTableHookWrapper object at 0x0000023E7E86D240> registered event PluginFunctions.queued_url
+2023-12-12 22:31:12,210 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.database.wrap.URLTableHookWrapper object at 0x0000023E7E86D240> registered event PluginFunctions.dequeued_url
+2023-12-12 22:31:12,211 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x0000023E7EA1C6A0> registered event PluginFunctions.resolve_dns
+2023-12-12 22:31:12,211 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x0000023E7EA1C6A0> registered event PluginFunctions.resolve_dns_result
+2023-12-12 22:31:12,211 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.network.dns.Resolver object at 0x0000023E7EA1C6A0> registered hook PluginFunctions.resolve_dns
+2023-12-12 22:31:12,211 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.protocol.http.client.Client object at 0x0000023E7EA1C908> registered event ClientEvent.new_session
+2023-12-12 22:31:12,212 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.protocol.ftp.client.Client object at 0x0000023E7EA1C9E8> registered event ClientEvent.new_session
+2023-12-12 22:31:12,212 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.FetchRule object at 0x0000023E7EA1CFD0> registered event PluginFunctions.accept_url
+2023-12-12 22:31:12,212 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.FetchRule object at 0x0000023E7EA1CFD0> registered hook PluginFunctions.accept_url
+2023-12-12 22:31:12,214 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered event PluginFunctions.wait_time
+2023-12-12 22:31:12,214 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered event PluginFunctions.handle_response
+2023-12-12 22:31:12,215 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered event PluginFunctions.handle_pre_response
+2023-12-12 22:31:12,217 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered event PluginFunctions.handle_error
+2023-12-12 22:31:12,217 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered hook PluginFunctions.wait_time
+2023-12-12 22:31:12,226 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered hook PluginFunctions.handle_response
+2023-12-12 22:31:12,227 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered hook PluginFunctions.handle_pre_response
+2023-12-12 22:31:12,228 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ResultRule object at 0x0000023E7EA5E080> registered hook PluginFunctions.handle_error
+2023-12-12 22:31:12,229 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.processor.rule.ProcessingRule object at 0x0000023E7EA5E160> registered event PluginFunctions.get_urls
+2023-12-12 22:31:12,230 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.stats.StatsStopTask object at 0x0000023E7E828EB8> registered event PluginFunctions.finishing_statistics
+2023-12-12 22:31:12,231 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.shutdown.AppStopTask object at 0x0000023E7E835470> registered event PluginFunctions.exit_status
+2023-12-12 22:31:12,232 - wpull.application.tasks.plugin - DEBUG - Instance <wpull.application.tasks.shutdown.AppStopTask object at 0x0000023E7E835470> registered hook PluginFunctions.exit_status
+2023-12-12 22:31:12,244 - yapsy - DEBUG - correct subclass tests failed for: _ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,246 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,246 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,247 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,247 - yapsy - DEBUG - correct subclass tests failed for: __file__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,248 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,248 - yapsy - DEBUG - correct subclass tests failed for: __name__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,249 - yapsy - DEBUG - correct subclass tests failed for: __package__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,250 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,250 - yapsy - DEBUG - correct subclass tests failed for: _logger in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,251 - yapsy - DEBUG - correct subclass tests failed for: gettext in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,251 - yapsy - DEBUG - correct subclass tests failed for: logging in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,304 - yapsy - DEBUG - correct subclass tests failed for: _ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,304 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,305 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,305 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,305 - yapsy - DEBUG - correct subclass tests failed for: __file__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,306 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,306 - yapsy - DEBUG - correct subclass tests failed for: __name__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,306 - yapsy - DEBUG - correct subclass tests failed for: __package__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,306 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,307 - yapsy - DEBUG - correct subclass tests failed for: _logger in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,307 - yapsy - DEBUG - correct subclass tests failed for: atexit in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,307 - yapsy - DEBUG - correct subclass tests failed for: gettext in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,308 - yapsy - DEBUG - correct subclass tests failed for: logging in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,308 - yapsy - DEBUG - correct subclass tests failed for: socket in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,308 - yapsy - DEBUG - correct subclass tests failed for: tornado in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,313 - yapsy - DEBUG - correct subclass tests failed for: LOG_DEBUG in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,313 - yapsy - DEBUG - correct subclass tests failed for: LOG_VERBOSE in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,314 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,314 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,314 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,315 - yapsy - DEBUG - correct subclass tests failed for: __file__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,315 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,315 - yapsy - DEBUG - correct subclass tests failed for: __name__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,315 - yapsy - DEBUG - correct subclass tests failed for: __package__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,316 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,316 - yapsy - DEBUG - correct subclass tests failed for: cast in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,316 - yapsy - DEBUG - correct subclass tests failed for: new_encoded_stream in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,318 - yapsy - DEBUG - correct subclass tests failed for: __builtins__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,319 - yapsy - DEBUG - correct subclass tests failed for: __cached__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,319 - yapsy - DEBUG - correct subclass tests failed for: __doc__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,319 - yapsy - DEBUG - correct subclass tests failed for: __file__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,320 - yapsy - DEBUG - correct subclass tests failed for: __loader__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,320 - yapsy - DEBUG - correct subclass tests failed for: __name__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,320 - yapsy - DEBUG - correct subclass tests failed for: __package__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,321 - yapsy - DEBUG - correct subclass tests failed for: __spec__ in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,321 - yapsy - DEBUG - correct subclass tests failed for: event in C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin
+Traceback (most recent call last):
+  File "C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\yapsy\PluginManager.py", line 535, in loadPlugins
+    is_correct_subclass = issubclass(element, self.categories_interfaces[category_name])
+TypeError: issubclass() arg 1 must be a class
+2023-12-12 22:31:12,321 - wpull.application.tasks.plugin - DEBUG - Found plugin debug_console_plugin_py from C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\debug_console.plugin.py.
+2023-12-12 22:31:12,322 - yapsy - DEBUG - Activating plugin: Default.debug_console_plugin_py
+2023-12-12 22:31:12,324 - wpull.application.tasks.plugin - DEBUG - Found plugin download_progress_plugin_py from C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\download_progress.plugin.py.
+2023-12-12 22:31:12,325 - yapsy - DEBUG - Activating plugin: Default.download_progress_plugin_py
+2023-12-12 22:31:12,328 - wpull.application.tasks.plugin - DEBUG - Found plugin server_response_plugin_py from C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\server_response.plugin.py.
+2023-12-12 22:31:12,328 - wpull.application.tasks.plugin - DEBUG - Found plugin arg_warning_plugin_py from C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\application\plugins\arg_warning.plugin.py.
+2023-12-12 22:31:12,330 - yapsy - DEBUG - Activating plugin: Default.arg_warning_plugin_py
+2023-12-12 22:31:12,332 - wpull.application.tasks.database - DEBUG - Parsing URL http://tzar.ru/
+2023-12-12 22:31:12,333 - wpull.application.tasks.database - DEBUG - Parsed URL <URLInfo at 0x23e7eb5c240 url=http://tzar.ru/ raw=http://tzar.ru/>
+2023-12-12 22:31:12,334 - wpull.application.tasks.database - DEBUG - Rewritten URL <URLInfo at 0x23e7eb5c438 url=http://tzar.ru/ raw=http://tzar.ru/?#>
+2023-12-12 22:31:12,351 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.app.AppSession object at 0x0000023E7E828400>
+2023-12-12 22:31:12,352 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:12,355 - wpull.pipeline.pipeline - DEBUG - Producer stopping.
+2023-12-12 22:31:12,356 - wpull.pipeline.pipeline - DEBUG - Put poison pill.
+2023-12-12 22:31:12,357 - wpull.pipeline.pipeline - DEBUG - Worker quitting.
+2023-12-12 22:31:12,358 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2023-12-12 22:31:12,360 - wpull.pipeline.pipeline - DEBUG - Exited workers loop.
+2023-12-12 22:31:12,364 - wpull.pipeline.pipeline - DEBUG - Waiting for producer to stop.
+2023-12-12 22:31:12,365 - wpull.pipeline.pipeline - DEBUG - Creating worker
+2023-12-12 22:31:12,367 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:12,385 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:12,391 - wpull.pipeline.pipeline - DEBUG - Worker process id=0
+2023-12-12 22:31:12,393 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x0000023E7E8359B0>
+2023-12-12 22:31:12,394 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2023-12-12 22:31:12,398 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2023-12-12 22:31:12,399 - wpull.processor.web - INFO - Fetching ‘http://tzar.ru/’.
+2023-12-12 22:31:12,402 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, http://tzar.ru/, HTTP/1.1)>.
+2023-12-12 22:31:12,403 - wpull.network.pool - DEBUG - Check out ('tzar.ru', 80, False)
+2023-12-12 22:31:12,405 - wpull.network.dns - DEBUG - Lookup address tzar.ru.
+2023-12-12 22:31:12,410 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:12,542 - wpull.network.dns - DEBUG - Resolved addresses: [_AddressInfo(ip_address='185.26.122.57', family=<AddressFamily.AF_INET: 2>, flow_info=None, scope_id=None)].
+2023-12-12 22:31:12,543 - wpull.network.connection - DEBUG - Connecting to ('185.26.122.57', 80).
+2023-12-12 22:31:12,558 - wpull.network.connection - DEBUG - Schedule check function.
+2023-12-12 22:31:12,558 - wpull.network.connection - DEBUG - Connected.
+2023-12-12 22:31:12,562 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2023-12-12 22:31:12,564 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2023-12-12 22:31:12,570 - wpull.protocol.http.stream - DEBUG - Reading header.
+2023-12-12 22:31:12,651 - wpull.protocol.http.web - DEBUG - Handling response
+2023-12-12 22:31:12,652 - wpull.protocol.http.web - DEBUG - Handling redirect.
+2023-12-12 22:31:12,655 - wpull.protocol.http.web - DEBUG - Updated next redirect request to <Request(GET, /, HTTP/1.1)>.
+2023-12-12 22:31:12,660 - wpull.protocol.http.stream - DEBUG - Reading body by length.
+2023-12-12 22:31:12,663 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2023-12-12 22:31:12,669 - wpull.warc.recorder - DEBUG - Writing CDX record http://tzar.ru/.
+2023-12-12 22:31:12,680 - wpull.network.pool - DEBUG - No wait check in.
+2023-12-12 22:31:12,683 - wpull.processor.web - INFO - Fetched ‘http://tzar.ru/’: 301 Moved Permanently. Length: 224 [text/html; charset=iso-8859-1].
+2023-12-12 22:31:12,689 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2023-12-12 22:31:12,689 - wpull.processor.web - INFO - Fetching ‘https://tzar.ru/’.
+2023-12-12 22:31:12,693 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, /, HTTP/1.1)>.
+2023-12-12 22:31:12,693 - wpull.network.pool - DEBUG - Check in ('tzar.ru', 80, False)
+2023-12-12 22:31:12,696 - wpull.network.pool - DEBUG - Check out ('tzar.ru', 443, True)
+2023-12-12 22:31:12,696 - wpull.network.dns - DEBUG - Lookup address tzar.ru.
+2023-12-12 22:31:12,707 - wpull.network.dns - DEBUG - Resolved addresses: [_AddressInfo(ip_address='185.26.122.57', family=<AddressFamily.AF_INET: 2>, flow_info=None, scope_id=None)].
+2023-12-12 22:31:12,708 - wpull.network.connection - DEBUG - Connecting to ('185.26.122.57', 443).
+2023-12-12 22:31:13,286 - wpull.network.connection - DEBUG - Schedule check function.
+2023-12-12 22:31:13,287 - wpull.network.connection - DEBUG - Connected.
+2023-12-12 22:31:13,292 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2023-12-12 22:31:13,294 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2023-12-12 22:31:13,299 - wpull.protocol.http.stream - DEBUG - Reading header.
+2023-12-12 22:31:13,439 - wpull.protocol.http.web - DEBUG - Handling response
+2023-12-12 22:31:13,489 - wpull.protocol.http.chunked - DEBUG - Reading chunked trailer.
+2023-12-12 22:31:13,492 - wpull.warc.recorder - DEBUG - Writing WARC record response.
+2023-12-12 22:31:13,509 - wpull.warc.recorder - DEBUG - Writing CDX record https://tzar.ru/.
+2023-12-12 22:31:13,512 - wpull.network.pool - DEBUG - No wait check in.
+2023-12-12 22:31:13,515 - wpull.processor.web - INFO - Fetched ‘https://tzar.ru/’: 200 OK. Length: unspecified [text/html; charset=UTF-8].
+2023-12-12 22:31:13,523 - wpull.document.util - DEBUG - Got encoding: utf-8
+2023-12-12 22:31:13,705 - wpull.processor.rule - DEBUG - Candidate URLs: inline=99 linked=153
+2023-12-12 22:31:13,707 - wpull.pipeline.session - DEBUG - Marking URL http://tzar.ru/ status Status.done.
+2023-12-12 22:31:13,779 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processed item <wpull.pipeline.session.ItemSession object at 0x0000023E7E8359B0>
+2023-12-12 22:31:13,781 - wpull.network.pool - DEBUG - Check in ('tzar.ru', 443, True)
+2023-12-12 22:31:13,785 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:13,797 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:13,808 - wpull.pipeline.pipeline - DEBUG - Worker id 0 Processing item <wpull.pipeline.session.ItemSession object at 0x0000023E7EB9EA58>
+2023-12-12 22:31:13,809 - wpull.processor.web - DEBUG - Robots filter verdict True reason filters
+2023-12-12 22:31:13,811 - wpull.processor.web - DEBUG - Filter verdict True reason filters
+2023-12-12 22:31:13,812 - wpull.processor.web - INFO - Fetching ‘http://tzar.ru/robots.txt’.
+2023-12-12 22:31:13,816 - wpull.protocol.http.client - DEBUG - Client fetch request <Request(GET, http://tzar.ru/robots.txt, HTTP/1.1)>.
+2023-12-12 22:31:13,818 - wpull.network.pool - DEBUG - Check out ('tzar.ru', 80, False)
+2023-12-12 22:31:13,823 - wpull.protocol.http.stream - DEBUG - Sending headers.
+2023-12-12 22:31:13,825 - wpull.warc.recorder - DEBUG - Writing WARC record request.
+2023-12-12 22:31:13,829 - wpull.warc.recorder - INFO - Rolling back file tzar.ru.warc.gz to length 18660.
+2023-12-12 22:31:13,833 - wpull.network.connection - DEBUG - Closing connection.
+2023-12-12 22:31:13,839 - wpull.network.pool - DEBUG - No wait check in.
+2023-12-12 22:31:13,841 - wpull.pipeline.pipeline - DEBUG - Get item from source
+2023-12-12 22:31:13,856 - wpull.network.pool - DEBUG - Check in ('tzar.ru', 80, False)
+2023-12-12 22:31:13,857 - wpull.pipeline.pipeline - DEBUG - 1 worker tasks completed
+2023-12-12 22:31:13,858 - wpull.application.app - ERROR - PermissionError: [Errno 13] Permission denied: 'tzar.ru.warc.gz'
+2023-12-12 22:31:13,859 - wpull.application.app - INFO - Exiting with status 3.
+2023-12-12 22:31:13,907 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending coro=<Pipeline._run_producer_wrapper() running at C:\Users\Aleksandra\anaconda3\envs\py368\lib\site-packages\wpull\pipeline\pipeline.py:248> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x0000023E7E7DD9A8>()]>>
