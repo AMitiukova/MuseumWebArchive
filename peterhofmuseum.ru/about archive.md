@@ -22,39 +22,39 @@ Cамый низкий процент у показателя **доступно
     
 - нехватки файла с картой сайта (sitemap):
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReady.com sitemap pspeterhofmuseum.ru.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReady.com sitemap pspeterhofmuseum.ru.jpg"/>
 
 - низкой скорости ответа сайта:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReady.com response peterhofmuseum.ru.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReady.com response peterhofmuseum.ru.jpg"/>
 
 - неработающих ссылок на внешние ресурсы: 
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReadyInvalidLinks.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReadyInvalidLinks.jpg"/>
 
 - ошибки кэширования заголовков:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReadyCachingHeaders.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReadyCachingHeaders.jpg"/>
 
 Процент **согласованности (Cohetion)** снижен и составляет **76%**
 Основные причины:
 
 - ссылки на внешние скрипты, изображения, размещенные на внешних ресурсах и ошибки кода CSS:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReady.com images peterhofmuseum.ru.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReady.com images peterhofmuseum.ru.jpg"/>
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReady.comHTML+CSS2peterhofmuseum.ru.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReady.comHTML+CSS2peterhofmuseum.ru.jpg"/>
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **90%**
 Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам. 
 - В случае с сайтом ГМЗ "Петергоф" несоответствие выявлено и в коде CSS, и HTML:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReady.com HTML+CSS httpspeterhofmuseum.ru.jpg"/>
+<img src="/peterhofmuseum.ru/images/ArchiveReady.com HTML+CSS httpspeterhofmuseum.ru.jpg"/>
 
 Показатель по **метаданным (Metadata)** составляет **80%**
 
 снижение процента по метаданным вызвано 
-также [ошибкой кэширования заголовков](<img%20src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\ArchiveReadyCachingHeaders.jpg"/>).
+также [ошибкой кэширования заголовков](<img%20src="/peterhofmuseum.ru/images/ArchiveReadyCachingHeaders.jpg"/>).
 
 [К оглавлению](#оглавление)
 ___
@@ -68,7 +68,7 @@ ___
 размер архива в байтах. В перечне типов файлов перечислены все встречающиеся в архиве 
 типы данных, указано количество файлов каждого типа, их общий размер и процент от общего объема.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\CWindowssystem32cmd.exe.jpg"/>
+<img src="/peterhofmuseum.ru/images/CWindowssystem32cmd.exe.jpg"/>
 
 Судя по анализу сайта можно сказать, что данные архива распределяются между изображениями, 
 приложениями и текстом в соотношении **~60% / ~26% / ~11%**
@@ -77,11 +77,11 @@ ___
 Записано более 93% файлов.
 При анализе их с помощью команды `stats -mimes`, данные объединены по типам с указанием кодировок.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\CWindowssystem32cmd.exeindex&amp;mimes.jpg"/>
+<img src="/peterhofmuseum.ru/images/CWindowssystem32cmd.exeindex&amp;mimes.jpg"/>
 
 при анализе архива с помощью команды `metawarc stats -m exts`, можно проанализировать количество и размеры файлов по расширениям:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\CWindowssystem32cmd.exe_stats.jpg"/>
+<img src="/peterhofmuseum.ru/images/CWindowssystem32cmd.exe_stats.jpg"/>
 
 [К оглавлению](#оглавление)
 ___
@@ -91,15 +91,15 @@ ___
 корректно работает переход по разделам сайта. При переходе по разделам меню сталкиваемся с тем, 
 что многие картинки не отображаются:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\Archive objects.jpg"/>
+<img src="/peterhofmuseum.ru/images/Archive objects.jpg"/>
 
 Не работает модуль онлайн трансляции:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\Archive online_image.jpg"/>
+<img src="/peterhofmuseum.ru/images/Archive online_image.jpg"/>
 
 Возникает ошибка при переходе в некоторые разделы сайта.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\peterhofmuseum.ru\images\Archive_plan.jpg"/>
+<img src="/peterhofmuseum.ru/images/Archive_plan.jpg"/>
 
 что подтверждает предусмотренные анализом ошибки кэширования заголовков, сохранения изображений, 
 скриптов и объектов, размещенных на внешних источниках.
