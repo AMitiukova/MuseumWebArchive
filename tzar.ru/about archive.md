@@ -44,8 +44,6 @@ Cамый низкий процент у показателя **доступно
 
 ![](/tzar.ru/images/ArchiveReadyRemoteImages.jpg)
 
-и
-
 ![](/tzar.ru/images/ArchiveReadyRemoteScript.jpg)
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **86%**
@@ -53,8 +51,6 @@ Cамый низкий процент у показателя **доступно
 - В случае с сайтом ГМЗ "Царское Село" несоответствие выявлено и в коде CSS, и HTML, множество ошибок при загрузке изображений:
 
 ![](/tzar.ru/images/ArchiveReadyInvalidHTML.jpg)
-
-и
 
 ![](/tzar.ru/images/ArchiveReadyImageErrors.jpg)
 
