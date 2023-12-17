@@ -22,28 +22,28 @@ ___
     
 - нехватки файла с картой сайта (sitemap):
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\Gatchina_sitemap.jpg"/>
+<img src="/gatchinapalace.ru/images/Gatchina_sitemap.jpg"/>
 
 - недостаточно высокой скорости ответа сайта:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\Gatchina_ response.jpg"/>
+<img src="/gatchinapalace.ru/images/Gatchina_ response.jpg"/>
 
 Процент **согласованности (Cohetion)** также снижен и составляет **84%**
 Основные причины:
 
 - ссылки на внешние сайты:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\AR_remote_sites.jpg"/>
+<img src="/gatchinapalace.ru/images/AR_remote_sites.jpg"/>
 
 - использование изображений, размещенных на внешних ресурсах:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\AR remote_images.jpg"/> 
+<img src="/gatchinapalace.ru/images/AR remote_images.jpg"/> 
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **80%**
 Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам. 
 В случае с сайтом ГМЗ "Гатчина" несоответствие в основном отмечается в коде CSS:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\Archiveready Gatchina HTML+CSS.jpg"/>
+<img src="/gatchinapalace.ru/images/Archiveready Gatchina HTML+CSS.jpg"/>
 
 Показатель по **метаданным (Metadata)** составляет **100%**
 
@@ -59,18 +59,18 @@ ___
 размер архива в байтах. В перечне типов файлов перечислены все встречающиеся в архиве типы данных, 
 указано количество файлов каждого типа, их общий размер и процент от общего объема.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\CWindowssystem32cmd.exe.jpg"/>
+<img src="/gatchinapalace.ru/images/CWindowssystem32cmd.exe.jpg"/>
 
 Судя по анализу сайта можно сказать, что большую часть архива - ~ 60% составляют изображения разных форматов, 
 на втором месте текст - 31%
 
 С помощью утилиты Metawarc была также команда `-index`, записывающая все метаданные в базу данных. Замечаем, что из 13190 файлов в БД записалось только 13000.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\CWindowssystem32cmd.exe_index1.jpg"/>
+<img src="/gatchinapalace.ru/images/CWindowssystem32cmd.exe_index1.jpg"/>
 
 затем, с помощью команды `-stats` проанализирован размер и количество каждого типа данных.
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\CWindowssystem32cmd.exe_stats.jpg"/>
+<img src="/gatchinapalace.ru/images/CWindowssystem32cmd.exe_stats.jpg"/>
 
 [К оглавлению](#оглавление)
 ___
@@ -81,7 +81,7 @@ ___
 Возникает ошибка при переходе в раздел "Специалистам" и отсутствует корректный переход на внешние сайты, где размещен
 представленный контент:
 
-<img src="C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\gatchinapalace.ru\images\RWP_Missing.jpg"/>
+<img src="/gatchinapalace.ru/images/RWP_Missing.jpg"/>
 
 что подтверждает предусмотренные анализом ошибки при архивировании сайтов со ссылками на контент, размещенный на внешних источниках.
 
