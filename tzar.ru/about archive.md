@@ -27,36 +27,36 @@ Cамый низкий процент у показателя **доступно
     
 - нехватки файла с картой сайта (sitemap),  защиты доступа для автоматических систем (роботов):
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadySitemap.jpg)
+![](/tzar.ru/images/ArchiveReadySitemap.jpg)
 
 - низкой скорости ответа сайта:
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReady_response.jpg)
+![](/tzar.ru/images/ArchiveReady_response.jpg)
 
 - неработающих ссылок на внешние ресурсы: 
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReady.comInvalidLinks.jpg)
+![](/tzar.ru/images/ArchiveReady.comInvalidLinks.jpg)
 
 Процент **согласованности (Cohetion)** снижен очень незначительно и составляет **96%**
 Основные причины:
 
 - ссылки на внешние скрипты, изображения, размещенные на внешних ресурсах и ошибки кода CSS:
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyRemoteImages.jpg)
+![](/tzar.ru/images/ArchiveReadyRemoteImages.jpg)
 
 и
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyRemoteScript.jpg)
+![](/tzar.ru/images/ArchiveReadyRemoteScript.jpg)
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **86%**
 Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам. 
 - В случае с сайтом ГМЗ "Царское Село" несоответствие выявлено и в коде CSS, и HTML, множество ошибок при загрузке изображений:
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyInvalidHTML.jpg)
+![](/tzar.ru/images/ArchiveReadyInvalidHTML.jpg)
 
 и
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyImageErrors.jpg)
+![](/tzar.ru/images/ArchiveReadyImageErrors.jpg)
 
 Показатель по **метаданным (Metadata)** составляет **100%**
 
@@ -72,7 +72,7 @@ ___
 размер архива в байтах. В перечне типов файлов перечислены все встречающиеся в архиве 
 типы данных, указано количество файлов каждого типа, их общий размер и процент от общего объема.
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\CWindowssystem32cmd.exe.jpg)
+![](/tzar.ru/images/CWindowssystem32cmd.exe.jpg)
 
 Судя по анализу сайта можно сказать, что данные архива не сохранились, кроме небольшого фрагмента текстовых данных в формате HTML.
 
@@ -82,12 +82,12 @@ ___
 
 При просмотре архива с помощью расширения [Replay Web Page](https://replayweb.page/) подтверждаются данные анализа архивного сайта:
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ReplayWeb.page_Home.jpg)
+![](/tzar.ru/images/ReplayWeb.page_Home.jpg)
 
 Отображается лишь меню сайта в текстовом режиме.
 При попытке пройти по ссылкам в разделы сайта возникает ошибка.
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ReplayWeb.page_menu.jpg)
+![](/tzar.ru/images/ReplayWeb.page_menu.jpg)
 
 что подтверждает предусмотренные анализом ошибки сохранения архива.
 Для понимания причин неполного скачивания сайта необходимо изучить файл логов.
