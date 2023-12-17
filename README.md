@@ -25,7 +25,7 @@
 
 Архивация всех сайтов произведена с помощью утилиты [wpull](https://wpull.readthedocs.io/en/master/install.html)
 
-Для сохранения архивов сайтов запускалась команда, содержащая идентичные опции:
+Для сохранения архивов сайтов запускалась команда, содержащая идентичные опции; заменялись лишь наименования папок, файлов и url:
 ```
 wpull http://tzar.ru/ --strip-session-id --no-check-certificate --no-robots --span-hosts --page-requisites 
 --sitemaps --inet4-only --timeout 20 --tries 3 --waitretry 5 --recursive 
