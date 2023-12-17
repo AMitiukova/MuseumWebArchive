@@ -35,7 +35,7 @@ Cамый низкий процент у показателя **доступно
 
 - неработающих ссылок на внешние ресурсы: 
 
-![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReady.com InvalidLinks.jpg)
+![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReady.comInvalidLinks.jpg)
 
 Процент **согласованности (Cohetion)** снижен очень незначительно и составляет **96%**
 Основные причины:
@@ -44,6 +44,8 @@ Cамый низкий процент у показателя **доступно
 
 ![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyRemoteImages.jpg)
 
+и
+
 ![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyRemoteScript.jpg)
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **86%**
@@ -51,6 +53,8 @@ Cамый низкий процент у показателя **доступно
 - В случае с сайтом ГМЗ "Царское Село" несоответствие выявлено и в коде CSS, и HTML, множество ошибок при загрузке изображений:
 
 ![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyInvalidHTML.jpg)
+
+и
 
 ![](C:\Users\Aleksandra\Documents\GitHub\MuseumWebArchive\tzar.ru\images\ArchiveReadyImageErrors.jpg)
 
